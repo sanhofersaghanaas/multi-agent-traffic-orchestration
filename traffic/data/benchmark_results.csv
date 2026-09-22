@@ -1,0 +1,10 @@
+total_spawned,total_completed,completion_rate,avg_wait_time,max_wait_time,total_delay,simulation_steps,strategy_key,seed,execution_time_sec,strategy_name
+172,172,100.0,10.27,37.0,1767.0,450,fixed_time,42,0.036,Fixed-Time Control
+169,169,100.0,11.03,36.0,1864.0,450,fixed_time,101,0.048,Fixed-Time Control
+150,150,100.0,14.26,37.0,2139.0,450,fixed_time,2024,0.048,Fixed-Time Control
+174,171,98.28,9.75,74.0,1697.0,450,negotiated_directional,42,0.064,Negotiated Directional
+187,182,97.33,10.63,141.0,1987.0,450,negotiated_directional,101,0.064,Negotiated Directional
+157,154,98.09,13.37,133.0,2099.0,450,negotiated_directional,2024,0.079,Negotiated Directional
+191,191,100.0,8.29,52.0,1583.0,450,fairness_aware,42,0.15,Fairness-Aware Agentic (Proposed)
+167,166,99.4,7.61,44.0,1271.0,450,fairness_aware,101,0.127,Fairness-Aware Agentic (Proposed)
+157,156,99.36,7.54,49.0,1183.0,450,fairness_aware,2024,0.111,Fairness-Aware Agentic (Proposed)

@@ -1,0 +1,29 @@
+simulation:
+  step_length: 1.0          # seconds per simulation step
+  total_steps: 360          # 6 minutes simulated per run
+  yellow_time: 4            # yellow clearance interval (s)
+  min_green_time: 10        # minimum green time per phase (s)
+  max_green_time: 50        # maximum green time per phase (s)
+  default_seeds: [42, 101, 2024, 777]
+
+network:
+  grid_size: [2, 2]         # 2x2 interconnected junctions: J0_0, J0_1, J1_0, J1_1
+  edge_length: 250          # meters between junctions
+  lanes_per_edge: 2
+  speed_limit: 13.89        # ~50 km/h in m/s
+
+traffic_demand:
+  car_flow_rate: 0.65       # probability per second of car generation on boundary
+  bus_flow_rate: 0.08       # bus frequency
+  emergency_flow_rate: 0.02 # emergency frequency
+  modal_weights:
+    car: 1.0
+    bus: 2.5                # bus carries more passengers
+    emergency: 6.0          # emergency vehicle preemption
+
+fairness_mechanism:
+  aging_factor: 1.35        # non-linear wait time aging exponent
+  wait_weight: 0.45         # weight for waiting time in priority bid
+  pressure_weight: 0.55     # weight for queue/capacity pressure
+  coordination_bonus: 3.5   # bonus for platoon green-wave alignment
+  starvation_threshold: 45  # seconds waiting before hard priority escalation

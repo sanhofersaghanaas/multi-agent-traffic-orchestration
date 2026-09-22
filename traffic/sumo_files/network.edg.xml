@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<edges>
+  <edge id="W0_to_J0_0" from_node="W0" to_node="J0_0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J0_0_to_W0" from_node="J0_0" to_node="W0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="W1_to_J1_0" from_node="W1" to_node="J1_0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J1_0_to_W1" from_node="J1_0" to_node="W1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J0_1_to_E0" from_node="J0_1" to_node="E0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="E0_to_J0_1" from_node="E0" to_node="J0_1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J1_1_to_E1" from_node="J1_1" to_node="E1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="E1_to_J1_1" from_node="E1" to_node="J1_1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="S0_to_J0_0" from_node="S0" to_node="J0_0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J0_0_to_S0" from_node="J0_0" to_node="S0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="S1_to_J0_1" from_node="S1" to_node="J0_1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J0_1_to_S1" from_node="J0_1" to_node="S1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J1_0_to_N0" from_node="J1_0" to_node="N0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="N0_to_J1_0" from_node="N0" to_node="J1_0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J1_1_to_N1" from_node="J1_1" to_node="N1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="N1_to_J1_1" from_node="N1" to_node="J1_1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J0_0_to_J0_1" from_node="J0_0" to_node="J0_1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J0_1_to_J0_0" from_node="J0_1" to_node="J0_0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J1_0_to_J1_1" from_node="J1_0" to_node="J1_1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J1_1_to_J1_0" from_node="J1_1" to_node="J1_0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J0_0_to_J1_0" from_node="J0_0" to_node="J1_0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J1_0_to_J0_0" from_node="J1_0" to_node="J0_0" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J0_1_to_J1_1" from_node="J0_1" to_node="J1_1" numLanes="2" speed="13.89" priority="1"/>
+  <edge id="J1_1_to_J0_1" from_node="J1_1" to_node="J0_1" numLanes="2" speed="13.89" priority="1"/>
+</edges>
